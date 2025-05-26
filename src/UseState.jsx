@@ -6,12 +6,13 @@ function UseState() {
 
   return (
     <>
-      <h1>useState</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+      
+      <h1>useState:</h1>
+      <h1>{count}</h1>
+        <button onClick={() => setCount(count + 1)}>
+          click
         </button>
-      </div>
+      
     </>
   )
 }
